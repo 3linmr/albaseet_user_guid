@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Accounting.Service\Accounting.Service.csproj" />
+    <ProjectReference Include="..\Compound.CoreOne\Compound.CoreOne.csproj" />
+    <ProjectReference Include="..\Inventory.Service\Inventory.Service.csproj" />
+    <ProjectReference Include="..\Purchase.Service\Purchases.Service.csproj" />
+    <ProjectReference Include="..\Selling.Service\Sales.Service.csproj" />
+    <ProjectReference Include="..\Shared.Service\Shared.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Compound\CoreOne\Contracts\Reports\Accounting\" />
+  </ItemGroup>
+
+</Project>

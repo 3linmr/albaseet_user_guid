@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="JsonDiffer" Version="1.0.1" />
+    <PackageReference Include="JsonDiffPatch.Net" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="8.0.4" />
+    <PackageReference Include="morelinq" Version="4.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.6" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared.CoreOne\Shared.CoreOne.csproj" />
+    <ProjectReference Include="..\Shared.Helper\Shared.Helper.csproj" />
+    <ProjectReference Include="..\Shared.Repository\Shared.Repository.csproj" />
+  </ItemGroup>
+
+	<!--<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>-->
+
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Services\Approval\ApprovalSystemService.ar.resx">
+      <LastGenOutput>Approval.ar.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Services\Approval\ApprovalSystemService.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Approval.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Services\Approval\HandleApprovalRequestService.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>HandleApprovalRequestService.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Services\Approval\HandleApprovalRequestService.ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>HandleApprovalRequestService.ar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Services\Basics\DistrictService.ar.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Services\Basics\CityService.ar.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Services\Basics\StateService.ar.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Services\Modules\CompanyService.ar.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\Services\Approval\HandleApprovalRequestService.en.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>HandleApprovalRequestService.en.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Services\Approval\HandleApprovalRequestService.ar.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>HandleApprovalRequestService.ar.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

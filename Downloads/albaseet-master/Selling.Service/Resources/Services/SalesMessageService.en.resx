@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyHasDocument" xml:space="preserve">
+    <value>Cannot create a new {0} because there is already a {0} on the {1}</value>
+  </data>
+  <data name="BonusQuantityExceeding" xml:space="preserve">
+    <value>Cannot save {0} because it has item ({2}) with bonus quantity ({4} {3}) that is exceeding the bonus quantity ({5} {3}) in {1}</value>
+  </data>
+  <data name="BonusQuantityNotMatchingRemaining" xml:space="preserve">
+    <value>Cannot save {0} because it has item ({2}) with bonus quantity ({4} {3}) that is not matching the bonus quantity remaining ({5} {3}) from {1}</value>
+  </data>
+  <data name="BonusQuantityNotMatchingUnInvoiced" xml:space="preserve">
+    <value>Cannot save {0} because it has item ({2}) with bonus quantity ({4} {3}) that is not matching the non invoiced bonus quantity received ({5} {3}) from {1}</value>
+  </data>
+  <data name="CannotCompletelyFulfillItemFromStore" xml:space="preserve">
+    <value>Cannot completely fulfill item {0} with package {1} from the store</value>
+  </data>
+  <data name="CannotDecreaseValueOfMemo" xml:space="preserve">
+    <value>Cannot decrease the value of {0} because then the value of {1} would be negative</value>
+  </data>
+  <data name="CannotDeleteBecauseReturnedAfterInvoice" xml:space="preserve">
+    <value>Cannot delete {0} because the parent {1} was returned from</value>
+  </data>
+  <data name="CannotDeleteBecauseSettlementStarted" xml:space="preserve">
+    <value>Cannot delete {0} because it has started being settled</value>
+  </data>
+  <data name="CannotPartiallyFulfillItemFromStore" xml:space="preserve">
+    <value>Cannot partially fulfill item {0} with package {1} from the store</value>
+  </data>
+  <data name="CannotUpdateBecauseSettlementStarted" xml:space="preserve">
+    <value>Cannot update {0} because it has started being settled</value>
+  </data>
+  <data name="CanOnlyCreateOnCreditInvoice" xml:space="preserve">
+    <value>{0} can only be created on credit invoices</value>
+  </data>
+  <data name="CollectedValueNotMatchTotalValue" xml:space="preserve">
+    <value>The total collected value {1} does not match the net value of {0} {2}</value>
+  </data>
+  <data name="DeleteCauseBonusQuantityExceed" xml:space="preserve">
+    <value>Cannot delete {0} because item ({2}) will have disbursed bonus quantity ({4} {3}) exceeding the bonus quantity ({5} {3}) in {1}</value>
+  </data>
+  <data name="DeleteCauseInvoiceValueNegative" xml:space="preserve">
+    <value>Cannot delete {0} because then the value of {1} would be negative</value>
+  </data>
+  <data name="DeleteCauseQuantityExceed" xml:space="preserve">
+    <value>Cannot delete {0} because item ({2}) will have disbursed quantity ({4} {3}) exceeding the quantity ({5} {3}) in {1}</value>
+  </data>
+  <data name="MustHavePaymentMethod" xml:space="preserve">
+    <value>Atleast one payment method should be provided</value>
+  </data>
+  <data name="NoCollectionMethodWithCreditInvoices" xml:space="preserve">
+    <value>No Collection methods are allowed in credit invoices</value>
+  </data>
+  <data name="NoLongerCanReturn" xml:space="preserve">
+    <value>{0} can no longer be returned from</value>
+  </data>
+  <data name="NoLongerValid" xml:space="preserve">
+    <value>{0} is no longer valid</value>
+  </data>
+  <data name="NoPaymentMethodWithCreditInvoices" xml:space="preserve">
+    <value>No Payment methods are allowed in credit invoices</value>
+  </data>
+  <data name="PaidValueNotMatchTotalValue" xml:space="preserve">
+    <value>The total paid value {1} does not match the net value of {0} {2}</value>
+  </data>
+  <data name="QuantityCannotBeChanged" xml:space="preserve">
+    <value>Quantities in {0} cannot be changed after being created</value>
+  </data>
+  <data name="QuantityExceeding" xml:space="preserve">
+    <value>Cannot save {0} because it has item ({2}) with quantity ({4} {3}) that is exceeding the quantity ({5} {3}) in {1}</value>
+  </data>
+  <data name="QuantityNotMatchingRemaining" xml:space="preserve">
+    <value>Cannot save {0} because it has item ({2}) with quantity ({4} {3}) that is not matching the quantity remaining ({5} {3}) from {1}</value>
+  </data>
+  <data name="QuantityNotMatchingUnInvoiced" xml:space="preserve">
+    <value>Cannot save {0} because it has item ({2}) with quantity ({4} {3}) that is not matching the non invoiced quantity ({5} {3}) from {1}</value>
+  </data>
+  <data name="SaveCauseBonusQuantityExceed" xml:space="preserve">
+    <value>Cannot save {0} because item ({2}) will have disbursed bonus quantity ({4} {3}) exceeding the bonus quantity ({5} {3}) in {1}</value>
+  </data>
+  <data name="SaveCauseQuantityExceed" xml:space="preserve">
+    <value>Cannot save {0} because item ({2}) will have disbursed quantity ({4} {3}) exceeding the quantity ({5} {3}) in {1}</value>
+  </data>
+  <data name="StockOutReturnFromReservationInvoiceCreatedBeforeCloseOut" xml:space="preserve">
+    <value>Cannot create {0} from {1} before creating a {2}</value>
+  </data>
+  <data name="ValueExceeding" xml:space="preserve">
+    <value>Cannot Save {0} because it has MemoValue ({2}) bigger than {1} net value ({3})</value>
+  </data>
+  <data name="ValueNotMatchingJournalCredit" xml:space="preserve">
+    <value>Cannot save {0} because it has net value not matching the total credit value in Journal</value>
+  </data>
+  <data name="ValueNotMatchingJournalDebit" xml:space="preserve">
+    <value>Cannot save {0} because it has net value not matching the total debit value in Journal</value>
+  </data>
+</root>
